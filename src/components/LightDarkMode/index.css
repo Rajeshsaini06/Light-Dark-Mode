@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.light-dark-mode-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.button {
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
